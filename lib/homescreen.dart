@@ -3,6 +3,7 @@ import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:gap/gap.dart';
 import 'package:sliderapp/Buttom_bar.dart';
+import 'package:sliderapp/ticket_view.dart';
 import 'package:sliderapp/utils/app_style.dart';
 
 class Homescreen extends StatefulWidget {
@@ -82,7 +83,9 @@ class _HomescreenState extends State<Homescreen> {
                 )
               ],
             ),
-          )
+          ),
+          const Gap(15),
+          TicketView(),
         ],
       ),
     );
