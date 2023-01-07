@@ -62,7 +62,7 @@ decoration: const BoxDecoration(
                       
                       Thickcontainer(),
                        Expanded(child: Container()),
-                       Text("NGR",
+                       Text("NG",
                       style: style.headLineStyle3.copyWith(color: Colors.white),),
                     ],
                   ),
