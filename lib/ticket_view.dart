@@ -20,10 +20,6 @@ class TicketView extends StatelessWidget {
             /*
             showing the blue part of the card/ticket
             */
-            Container(),
-              /*
-            showing the orange part of the card/ticket
-            */
             
             Container(
 decoration: const BoxDecoration(
@@ -88,8 +84,29 @@ width: 100, child: Text("Nigeria", textAlign: TextAlign.end, style: style.headLi
                 ),
                 ],
               ),
-            )
+            ),
+                 Container(
+                  color: const Color(0xFFF37B67),
+                  child: Row(
+                    children: const [
+                      SizedBox(
+                        height: 20,
+                        width: 10,
+                        child: DecoratedBox(decoration: BoxDecoration(
+                          borderRadius: BorderRadius.only( 
+                            topRight:Radius.circular(10),
+                             bottomRight:Radius.circular(10),
+                          )
+                        )),
+                      )
+                    ],
+                  ),
+                 ),
+              /*
+            showing the orange part of the card/ticket
+            */
           ],
+
         ),
       ),
     );
