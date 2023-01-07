@@ -85,7 +85,14 @@ class _HomescreenState extends State<Homescreen> {
             ),
           ),
           const Gap(15),
-          TicketView(),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            padding: EdgeInsets.only(left: 20),
+            child: Row(children: [
+              TicketView(),
+              TicketView(),
+            ]),
+          )
         ],
       ),
     );
