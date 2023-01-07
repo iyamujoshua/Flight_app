@@ -78,9 +78,9 @@ class _HomescreenState extends State<Homescreen> {
                       onTap: (() {
                         print("you tapped me");
                       }),
-                      child: Text("view more", style: style.headLineStyle4,)),
+                      child: Text("view all", style: style.headLineStyle4,)),
                   ],
-                )
+                ),
               ],
             ),
           ),
@@ -92,6 +92,21 @@ class _HomescreenState extends State<Homescreen> {
               TicketView(),
               TicketView(),
             ]),
+          ),
+          const Gap(15),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Hotels", style: style.headLineStyle2,),
+                      InkWell(
+                        onTap: (() {
+                          print("you tapped me");
+                        }),
+                        child: Text("view all", style: style.headLineStyle4,)),
+                    ],
+                  ),
           )
         ],
       ),
