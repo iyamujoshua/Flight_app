@@ -17,6 +17,14 @@ class TicketView extends StatelessWidget {
         margin: const EdgeInsets.only(left:16),
         child: Column(
           children: [
+            /*
+            showing the blue part of the card/ticket
+            */
+            Container(),
+              /*
+            showing the orange part of the card/ticket
+            */
+            
             Container(
 decoration: const BoxDecoration(
   color: Color(0xFF526799),
