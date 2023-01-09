@@ -5,6 +5,7 @@ import 'package:gap/gap.dart';
 import 'package:sliderapp/Buttom_bar.dart';
 import 'package:sliderapp/ticket_view.dart';
 import 'package:sliderapp/utils/app_style.dart';
+import 'package:sliderapp/hotel_screen.dart';
 
 class Homescreen extends StatefulWidget {
   const Homescreen({super.key});
@@ -107,7 +108,9 @@ class _HomescreenState extends State<Homescreen> {
                         child: Text("view all", style: style.headLineStyle4,)),
                     ],
                   ),
-          )
+          ),
+        const Gap(15),
+        MyWidget(),
         ],
       ),
     );
