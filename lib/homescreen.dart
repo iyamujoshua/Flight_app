@@ -34,7 +34,7 @@ class _HomescreenState extends State<Homescreen> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                       
-                        Text("Good morning", style: style.headLineStyle3,),
+                        Text("Good Afternoon", style: style.headLineStyle3,),
                         Gap(5),
                         Text("Book Tickets", style: style.headLineStyle1,),
                       ],
